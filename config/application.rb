@@ -25,3 +25,4 @@ module TestSpotifyOauthV1
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
+RSpotify::authenticate(ENV["SPOTIFY_ID"], ENV["SPOTIFY_PWD"])
